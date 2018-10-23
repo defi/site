@@ -6,6 +6,7 @@ import styled from "react-emotion";
 import Header from "../components/Header";
 import Description from "../components/Description";
 import Events from "../components/Events";
+import Members from "../components/Members";
 
 injectGlobal`
 ${emotionNormalize}
@@ -71,5 +72,6 @@ export default () => (
     <Header />
     <Description />
     <Events />
+    <Members />
   </>
 );

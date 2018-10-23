@@ -1,0 +1,56 @@
+{
+  "categories": {
+    "Apps": ["Coinbase Wallet"],
+    "Baskets": ["Set"],
+    "Derivatives": ["dY/dX", "Market Protocol", "bZx"],
+    "Exchanges": ["Kyber Network", "Market Protocol"],
+    "Insurance": ["CDx", "Market Protocol"],
+    "Loans": ["Dharma"],
+    "Payments": ["8x Protocol"],
+    "Real World Assets": ["Centrifuge"],
+    "Securities": ["Abacus"],
+    "Stablecoins": ["Maker"],
+    "Scaling": ["Connext"]
+  },
+  "members": {
+    "Abacus": {
+      "url": "https://abacusprotocol.com"
+    },
+    "Coinbase Wallet": {
+      "url": "https://wallet.coinbase.com/"
+    },
+    "Set": {
+      "url": "https://setprotocol.com/"
+    },
+    "dY/dX": {
+      "url": "https://dydx.exchange/"
+    },
+    "Market Protocol": {
+      "url": "https://marketprotocol.io/"
+    },
+    "CDx": {
+      "url": "https://cdxproject.com/"
+    },
+    "Dharma": {
+      "url": "https://dharma.io/"
+    },
+    "8x Protocol": {
+      "url": "https://8xprotocol.com/"
+    },
+    "Connext": {
+      "url": "https://connext.network/"
+    },
+    "bZx": {
+      "url": "https://b0x.network/"
+    },
+    "Kyber Network": {
+      "url": "https://kyber.network/"
+    },
+    "Maker": {
+      "url": "https://makerdao.com/"
+    },
+    "Centrifuge": {
+      "url": "https://www.centrifuge.io/"
+    }
+  }
+}
