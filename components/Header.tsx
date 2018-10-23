@@ -14,6 +14,7 @@ const Header = ({ className }: { className?: string }) => (
       </Logo>
       <Subtitle>An Open Community of Decentralized Finance Platforms</Subtitle>
       <JoinTelegramButton>
+        <img src="static/telegram.png" />
         <span>Join the Telegram</span>
       </JoinTelegramButton>
     </Main>
@@ -60,9 +61,10 @@ const JoinTelegramButton = styled.div`
   width: 293px;
   border-radius: 8px;
   background-color: #ffffff;
+  img {
+    margin-right: 21px;
+  }
   span {
-    height: 24px;
-    width: 166px;
     color: #0734ff;
     font-size: 20px;
     font-weight: bold;
