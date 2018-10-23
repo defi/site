@@ -13,7 +13,13 @@ const Header = ({ className }: { className?: string }) => (
         <Line />
       </Logo>
       <Subtitle>An Open Community of Decentralized Finance Platforms</Subtitle>
-      <JoinTelegramButton>
+      <JoinTelegramButton
+        onClick={() => {
+          if (typeof window !== "undefined") {
+            window.open("https://t.me/de_fi", "_blank");
+          }
+        }}
+      >
         <img src="static/telegram.png" />
         <span>Join the Telegram</span>
       </JoinTelegramButton>
