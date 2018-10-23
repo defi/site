@@ -1,8 +1,9 @@
 import styled from "react-emotion";
+import Section from "./Section";
 
 const Description = ({ className }: { className?: string }) => (
-  <section className={className}>
-    <h1>DeFi is a Movement</h1>
+  <Section className={className}>
+    <h2>DeFi is a Movement</h2>
     <p>
       We saw an overlap in the problems that decentralized finance protocols
       were trying to solve and thought there would be no better way to tackle
@@ -40,7 +41,7 @@ const Description = ({ className }: { className?: string }) => (
         </p>
       </CorePrinciple>
     </CorePrinciples>
-  </section>
+  </Section>
 );
 
 const CorePrinciples = styled.div``;
