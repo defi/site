@@ -1,7 +1,6 @@
 import * as React from "react";
 import emotionNormalize from "emotion-normalize";
 import { injectGlobal } from "emotion";
-import styled from "react-emotion";
 
 import Header from "../components/Header";
 import Description from "../components/Description";

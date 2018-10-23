@@ -20,7 +20,7 @@ const Category = ({
       {members.map(member => {
         const data = memberData.members[member];
         return (
-          <li>
+          <li key={member}>
             <a href={(data && data.url) || "#"} target="_blank">
               {member}
             </a>
