@@ -1,0 +1,11 @@
+{
+  "presets": ["next/babel", "@zeit/next-typescript/babel"],
+  "env": {
+    "production": {
+      "plugins": [["emotion", { "hoist": true }]]
+    },
+    "development": {
+      "plugins": [["emotion", { "sourceMap": true, "autoLabel": true }]]
+    }
+  }
+}

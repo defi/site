@@ -8,9 +8,12 @@
   "license": "MIT",
   "dependencies": {
     "@zeit/next-typescript": "^1.1.1",
+    "emotion": "^9.2.12",
+    "emotion-normalize": "^8.0.0",
     "next": "^7.0.2",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-emotion": "^9.2.12"
   },
   "scripts": {
     "dev": "next",
@@ -19,6 +22,7 @@
     "deploy": "NODE_ENV=production rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "devDependencies": {
-    "@types/react": "^16.4.18"
+    "@types/react": "^16.4.18",
+    "babel-plugin-emotion": "^9.2.11"
   }
 }
