@@ -19,5 +19,5 @@ const Section = ({
 );
 
 export default styled(Section)`
-  padding: 0 45px;
+  padding: 90px 45px;
 `;
