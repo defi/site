@@ -3,6 +3,8 @@ import * as React from "react";
 import styled from "react-emotion";
 import Section from "./Section";
 import EventCard from "./EventCard";
+import mq from "../lib/mq";
+import { css } from "emotion";
 
 const Events = ({ className }: { className?: string }) => (
   <Section className={className}>
@@ -37,6 +39,11 @@ const EventGroup = styled.div`
   > h4 {
     margin-top: 0;
     margin-bottom: 17px;
+    ${mq.medium(css`
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: normal;
+    `)};
   }
 `;
 

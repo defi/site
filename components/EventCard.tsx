@@ -1,6 +1,7 @@
 import * as React from "react";
 import styled from "react-emotion";
 import { css } from "emotion";
+import mq from "../lib/mq";
 
 type Props = {
   image: string;
@@ -28,6 +29,9 @@ const EventCard = ({
           display: flex;
           align-items: center;
           padding-left: 60px;
+          ${mq.medium(css`
+            padding: 20px;
+          `)};
         `}
       >
         <Info>
@@ -52,6 +56,11 @@ const EventTitle = styled.h4`
   line-height: 34px;
   letter-spacing: normal;
   margin: 0;
+  ${mq.medium(css`
+    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  `)};
 `;
 
 const EventLocation = styled.div`
@@ -59,6 +68,10 @@ const EventLocation = styled.div`
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 16px;
+  ${mq.medium(css`
+    font-size: 14px;
+    margin-bottom: 5px;
+  `)};
 `;
 
 const EventDateTime = ({ date, time }: { date: string; time: string }) => (
@@ -68,11 +81,23 @@ const EventDateTime = ({ date, time }: { date: string; time: string }) => (
       height: 36px;
       display: flex;
       width: 263px;
+      line-height: 19px;
+      ${mq.medium(css`
+        flex-direction: column;
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 14px;
+      `)};
       div {
         flex: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+        ${mq.medium(css`
+          justify-content: left;
+        `)};
       }
     `}
   >
@@ -86,19 +111,25 @@ const Date = styled.div`
   background-color: #0734ff;
   color: #ffffff;
   font-weight: bold;
-  line-height: 19px;
+  ${mq.medium(css`
+    background-color: #fff;
+    color: #000d45;
+  `)};
 `;
 
 const Time = styled.div`
   color: #000d45;
-  line-height: 19px;
   background-color: #ecefff;
   border-radius: 0 8px 8px 0;
+  ${mq.medium(css`
+    background-color: #fff;
+    font-weight: normal;
+  `)};
 `;
 
 export default styled(EventCard)`
   height: 276px;
-  width: 1142px;
+  max-width: 1142px;
   border: 1px solid #cbcfe2;
   border-radius: 8px;
   background-color: #ffffff;
@@ -107,6 +138,14 @@ export default styled(EventCard)`
     height: 100%;
     border-radius: 8px 0 0 8px;
     flex: 50%;
+    ${mq.medium(css`
+      height: 115px;
+      border-radius: 8px 8px 0 0;
+    `)};
   }
   display: flex;
+
+  ${mq.medium(css`
+    flex-direction: column;
+  `)};
 `;
