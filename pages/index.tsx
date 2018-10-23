@@ -13,13 +13,13 @@ ${emotionNormalize}
 
 @font-face {
     font-family: Aeonik;
-    src: url(/static/Aeonik-Bold.ttf);
+    src: url(static/Aeonik-Bold.ttf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: Aeonik;
-    src: url(/static/Aeonik-Regular.ttf);
+    src: url(static/Aeonik-Regular.ttf);
 }
 
 html, body {
