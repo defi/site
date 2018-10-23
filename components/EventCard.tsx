@@ -22,7 +22,7 @@ const EventCard = ({
 }: Props) => {
   return (
     <div className={className}>
-      <img src={image} />
+      <EventImage src={image} />
       <div
         className={css`
           flex: 50%;
@@ -127,6 +127,19 @@ const Time = styled.div`
   `)};
 `;
 
+const EventImage = styled.div`
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+  flex: 50%;
+  background: url(${(props: { src: string }) => props.src}) no-repeat center
+    center;
+  background-size: cover;
+  ${mq.medium(css`
+    height: 115px;
+    border-radius: 8px 8px 0 0;
+  `)};
+`;
+
 export default styled(EventCard)`
   height: 276px;
   max-width: 1142px;
@@ -134,15 +147,6 @@ export default styled(EventCard)`
   border-radius: 8px;
   background-color: #ffffff;
   box-shadow: 0 10px 20px 0 #bec6eb;
-  img {
-    height: 100%;
-    border-radius: 8px 0 0 8px;
-    flex: 50%;
-    ${mq.medium(css`
-      height: 115px;
-      border-radius: 8px 8px 0 0;
-    `)};
-  }
   display: flex;
 
   ${mq.medium(css`
