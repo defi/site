@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import styled from "react-emotion";
+import mq from "../lib/mq";
 import { css } from "emotion";
 import Section from "./Section";
 import memberData from "../lib/members.json";
@@ -78,6 +79,9 @@ const CategoryColumn = ({ categories }: { categories: any[] }) => (
 
 const CategoryColumns = styled.div`
   display: flex;
+  ${mq.medium(css`
+    flex-direction: column;
+  `)};
 `;
 
 const Members = ({ className }: { className?: string }) => {
