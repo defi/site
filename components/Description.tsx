@@ -1,5 +1,7 @@
 import styled from "react-emotion";
 import Section from "./Section";
+import CorePrinciple from "./CorePrinciple";
+import { css } from "emotion";
 
 const Description = ({ className }: { className?: string }) => (
   <Section className={className}>
@@ -11,9 +13,13 @@ const Description = ({ className }: { className?: string }) => (
     </p>
     <CorePrinciples>
       <h3>Our Core Principles</h3>
-      <CorePrinciple>
-        <PrincipleId>1</PrincipleId>
-        <h4>Interoperability and Open Source</h4>
+      <CorePrinciple
+        id="1"
+        title="Interoperability and Open Source"
+        className={css`
+          margin-bottom: 42px;
+        `}
+      >
         <p>
           Members of DeFi take interoperability into account when building their
           projects. This helps strengthen the compounding effects of all our
@@ -22,18 +28,20 @@ const Description = ({ className }: { className?: string }) => (
           woven together on a technical level.
         </p>
       </CorePrinciple>
-      <CorePrinciple>
-        <PrincipleId>2</PrincipleId>
-        <h4>Accessibility and Financial Inclusion</h4>
+      <CorePrinciple
+        id="2"
+        title="Accessibility and Financial Inclusion"
+        className={css`
+          margin-bottom: 73px;
+        `}
+      >
         <p>
           We strive to create a financial system that is accessible to anyone
           with an internet connection. We believe in a world where value flows
           freely, regardless of one’s geographic location.
         </p>
       </CorePrinciple>
-      <CorePrinciple>
-        <PrincipleId>3</PrincipleId>
-        <h4>Financial Transparency</h4>
+      <CorePrinciple id="3" title="Financial Transparency">
         <p>
           We believe that financial services should not be built in opaque
           silos, but rather that market-level information should be transparent
@@ -44,10 +52,8 @@ const Description = ({ className }: { className?: string }) => (
   </Section>
 );
 
-const CorePrinciples = styled.div``;
-
-const CorePrinciple = styled.div``;
-
-const PrincipleId = styled.span``;
+const CorePrinciples = styled.div`
+  width: 773px;
+`;
 
 export default styled(Description)``;
