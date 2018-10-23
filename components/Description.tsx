@@ -3,6 +3,7 @@ import Section from "./Section";
 import CorePrinciple from "./CorePrinciple";
 import { css } from "emotion";
 import Dots from "./Dots";
+import mq from "../lib/mq";
 
 const Description = ({ className }: { className?: string }) => (
   <Section className={className}>
@@ -62,11 +63,14 @@ const FlexWrapper = styled.div`
   ${Dots} {
     margin-top: 280px;
     margin-left: 125px;
+    ${mq.medium(css`
+      display: none;
+    `)};
   }
 `;
 
 const CorePrinciples = styled.div`
-  width: 773px;
+  max-width: 773px;
 `;
 
 export default styled(Description)``;

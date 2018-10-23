@@ -2,7 +2,7 @@ import * as React from "react";
 import styled from "react-emotion";
 
 const ContentWrapper = styled.div`
-  width: 1141px;
+  max-width: 1141px;
   margin: 0px auto;
 `;
 
@@ -18,4 +18,6 @@ const Section = ({
   </section>
 );
 
-export default Section;
+export default styled(Section)`
+  padding: 0 45px;
+`;

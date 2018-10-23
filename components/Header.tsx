@@ -1,6 +1,8 @@
 import styled from "react-emotion";
 import Section from "./Section";
 import Dots from "./Dots";
+import mq from "../lib/mq";
+import { css } from "emotion";
 
 const Header = ({ className }: { className?: string }) => (
   <Section className={className}>
@@ -33,6 +35,9 @@ const Content = styled.div`
   display: flex;
   ${Dots} {
     margin-top: 40px;
+    ${mq.medium(css`
+      display: none;
+    `)};
   }
 `;
 
@@ -42,7 +47,7 @@ const Logo = styled.div`
 `;
 
 const Main = styled.div`
-  width: 861px;
+  max-width: 861px;
 `;
 
 const Line = styled.div`
@@ -50,6 +55,9 @@ const Line = styled.div`
   height: 44px;
   width: 356px;
   border-bottom: 2px solid #ffffff;
+  ${mq.medium(css`
+    display: none;
+  `)};
 `;
 
 const Title = styled.h1`
@@ -58,6 +66,12 @@ const Title = styled.h1`
   font-weight: bold;
   letter-spacing: -5.47px;
   margin: 0;
+  ${mq.medium(css`
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: -2.74px;
+    line-height: 108px;
+  `)};
 `;
 
 const Subtitle = styled.p`
@@ -67,6 +81,10 @@ const Subtitle = styled.p`
   line-height: 60px;
   margin-top: 20px;
   margin-bottom: 65px;
+  ${mq.medium(css`
+    font-size: 25px;
+    line-height: 30px;
+  `)};
 `;
 
 const JoinTelegramButton = styled.div`
@@ -88,6 +106,10 @@ const JoinTelegramButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  ${mq.medium(css`
+    width: 100%;
+  `)};
 
   :hover {
     background-color: #ccc;
