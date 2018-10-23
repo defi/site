@@ -1,7 +1,7 @@
 import * as React from "react";
-import Head from "next/head";
 import emotionNormalize from "emotion-normalize";
 import { injectGlobal } from "emotion";
+import Head from "next/head";
 
 import Header from "../components/Header";
 import Description from "../components/Description";
@@ -98,12 +98,7 @@ ${defiStyles}
 export default () => (
   <>
     <Head>
-      <title>DeFi | Decentralizing finance</title>
-      <meta
-        name="description"
-        content="An open community of decentralized finance platforms."
-      />
-      <meta name="viewport" content="width=device-width" />
+      <title>DeFi | Decentralizing Finance</title>
     </Head>
     <Header />
     <Description />
