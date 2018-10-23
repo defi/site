@@ -1,4 +1,5 @@
 import * as React from "react";
+import Head from "next/head";
 import emotionNormalize from "emotion-normalize";
 import { injectGlobal } from "emotion";
 
@@ -68,6 +69,13 @@ html, body {
 
 export default () => (
   <>
+    <Head>
+      <title>DeFi | Decentralizing finance</title>
+      <meta
+        name="description"
+        content="An open community of decentralized finance platforms."
+      />
+    </Head>
     <Header />
     <Description />
     <Events />
