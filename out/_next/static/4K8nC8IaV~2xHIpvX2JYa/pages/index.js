@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{202:function(e,t,n){__NEXT_REGISTER_PAGE("/",function(){return e.exports=n(203),{page:e.exports.default}})},203:function(e,t,n){"use strict";n.r(t);var o=n(10);t.default=function(){return o.createElement("div",null,"Welcome to the DeFi website!")}}},[[202,1,0]]]);

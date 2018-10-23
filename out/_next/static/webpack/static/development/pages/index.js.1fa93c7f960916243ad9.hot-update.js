@@ -1,0 +1,144 @@
+webpackHotUpdate("static/development/pages/index.js",{
+
+/***/ "./components/Description.tsx":
+/*!************************************!*\
+  !*** ./components/Description.tsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_emotion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-emotion */ "./node_modules/react-emotion/dist/index.esm.js");
+/* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Section */ "./components/Section.tsx");
+var _jsxFileName = "/home/ian/proj/defi/site/components/Description.tsx";
+
+
+
+
+var Description = function Description(_ref) {
+  var className = _ref.className;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: className,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "DeFi is a Movement"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "We saw an overlap in the problems that decentralized finance protocols were trying to solve and thought there would be no better way to tackle them then by forming an open community of like-minded projects."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CorePrinciples, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Our Core Principles"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CorePrinciple, {
+    id: "1",
+    title: "Interoperability and Open Source",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Members of DeFi take interoperability into account when building their projects. This helps strengthen the compounding effects of all our projects as a whole. Open sourcing helps us reach this goal by allowing us to collectively understand how all of our products can be woven together on a technical level.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CorePrinciple, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PrincipleId, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "2"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Accessibility and Financial Inclusion"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "We strive to create a financial system that is accessible to anyone with an internet connection. We believe in a world where value flows freely, regardless of one\u2019s geographic location.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CorePrinciple, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PrincipleId, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Financial Transparency"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "We believe that financial services should not be built in opaque silos, but rather that market-level information should be transparent to all participants while still preserving individual privacy."))));
+};
+
+var CorePrinciples =
+/*#__PURE__*/
+Object(react_emotion__WEBPACK_IMPORTED_MODULE_1__["default"])("div", {
+  label: "CorePrinciples",
+  target: "e1jp911h0"
+})("/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0Q2lDIiwiZmlsZSI6Ii9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSBcInJlYWN0LWVtb3Rpb25cIjtcbmltcG9ydCBTZWN0aW9uIGZyb20gXCIuL1NlY3Rpb25cIjtcblxuY29uc3QgRGVzY3JpcHRpb24gPSAoeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgPT4gKFxuICA8U2VjdGlvbiBjbGFzc05hbWU9e2NsYXNzTmFtZX0+XG4gICAgPGgyPkRlRmkgaXMgYSBNb3ZlbWVudDwvaDI+XG4gICAgPHA+XG4gICAgICBXZSBzYXcgYW4gb3ZlcmxhcCBpbiB0aGUgcHJvYmxlbXMgdGhhdCBkZWNlbnRyYWxpemVkIGZpbmFuY2UgcHJvdG9jb2xzXG4gICAgICB3ZXJlIHRyeWluZyB0byBzb2x2ZSBhbmQgdGhvdWdodCB0aGVyZSB3b3VsZCBiZSBubyBiZXR0ZXIgd2F5IHRvIHRhY2tsZVxuICAgICAgdGhlbSB0aGVuIGJ5IGZvcm1pbmcgYW4gb3BlbiBjb21tdW5pdHkgb2YgbGlrZS1taW5kZWQgcHJvamVjdHMuXG4gICAgPC9wPlxuICAgIDxDb3JlUHJpbmNpcGxlcz5cbiAgICAgIDxoMz5PdXIgQ29yZSBQcmluY2lwbGVzPC9oMz5cbiAgICAgIDxDb3JlUHJpbmNpcGxlIGlkPVwiMVwiIHRpdGxlPVwiSW50ZXJvcGVyYWJpbGl0eSBhbmQgT3BlbiBTb3VyY2VcIj5cbiAgICAgICAgPHA+XG4gICAgICAgICAgTWVtYmVycyBvZiBEZUZpIHRha2UgaW50ZXJvcGVyYWJpbGl0eSBpbnRvIGFjY291bnQgd2hlbiBidWlsZGluZyB0aGVpclxuICAgICAgICAgIHByb2plY3RzLiBUaGlzIGhlbHBzIHN0cmVuZ3RoZW4gdGhlIGNvbXBvdW5kaW5nIGVmZmVjdHMgb2YgYWxsIG91clxuICAgICAgICAgIHByb2plY3RzIGFzIGEgd2hvbGUuIE9wZW4gc291cmNpbmcgaGVscHMgdXMgcmVhY2ggdGhpcyBnb2FsIGJ5XG4gICAgICAgICAgYWxsb3dpbmcgdXMgdG8gY29sbGVjdGl2ZWx5IHVuZGVyc3RhbmQgaG93IGFsbCBvZiBvdXIgcHJvZHVjdHMgY2FuIGJlXG4gICAgICAgICAgd292ZW4gdG9nZXRoZXIgb24gYSB0ZWNobmljYWwgbGV2ZWwuXG4gICAgICAgIDwvcD5cbiAgICAgIDwvQ29yZVByaW5jaXBsZT5cbiAgICAgIDxDb3JlUHJpbmNpcGxlPlxuICAgICAgICA8UHJpbmNpcGxlSWQ+MjwvUHJpbmNpcGxlSWQ+XG4gICAgICAgIDxoND5BY2Nlc3NpYmlsaXR5IGFuZCBGaW5hbmNpYWwgSW5jbHVzaW9uPC9oND5cbiAgICAgICAgPHA+XG4gICAgICAgICAgV2Ugc3RyaXZlIHRvIGNyZWF0ZSBhIGZpbmFuY2lhbCBzeXN0ZW0gdGhhdCBpcyBhY2Nlc3NpYmxlIHRvIGFueW9uZVxuICAgICAgICAgIHdpdGggYW4gaW50ZXJuZXQgY29ubmVjdGlvbi4gV2UgYmVsaWV2ZSBpbiBhIHdvcmxkIHdoZXJlIHZhbHVlIGZsb3dzXG4gICAgICAgICAgZnJlZWx5LCByZWdhcmRsZXNzIG9mIG9uZeKAmXMgZ2VvZ3JhcGhpYyBsb2NhdGlvbi5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgICAgPENvcmVQcmluY2lwbGU+XG4gICAgICAgIDxQcmluY2lwbGVJZD4zPC9QcmluY2lwbGVJZD5cbiAgICAgICAgPGg0PkZpbmFuY2lhbCBUcmFuc3BhcmVuY3k8L2g0PlxuICAgICAgICA8cD5cbiAgICAgICAgICBXZSBiZWxpZXZlIHRoYXQgZmluYW5jaWFsIHNlcnZpY2VzIHNob3VsZCBub3QgYmUgYnVpbHQgaW4gb3BhcXVlXG4gICAgICAgICAgc2lsb3MsIGJ1dCByYXRoZXIgdGhhdCBtYXJrZXQtbGV2ZWwgaW5mb3JtYXRpb24gc2hvdWxkIGJlIHRyYW5zcGFyZW50XG4gICAgICAgICAgdG8gYWxsIHBhcnRpY2lwYW50cyB3aGlsZSBzdGlsbCBwcmVzZXJ2aW5nIGluZGl2aWR1YWwgcHJpdmFjeS5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgIDwvQ29yZVByaW5jaXBsZXM+XG4gIDwvU2VjdGlvbj5cbik7XG5cbmNvbnN0IENvcmVQcmluY2lwbGVzID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBDb3JlUHJpbmNpcGxlID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBQcmluY2lwbGVJZCA9IHN0eWxlZC5zcGFuYGA7XG5cbmV4cG9ydCBkZWZhdWx0IHN0eWxlZChEZXNjcmlwdGlvbilgYDtcbiJdfQ== */");
+var CorePrinciple =
+/*#__PURE__*/
+Object(react_emotion__WEBPACK_IMPORTED_MODULE_1__["default"])("div", {
+  label: "CorePrinciple",
+  target: "e1jp911h1"
+})("/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE4Q2dDIiwiZmlsZSI6Ii9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSBcInJlYWN0LWVtb3Rpb25cIjtcbmltcG9ydCBTZWN0aW9uIGZyb20gXCIuL1NlY3Rpb25cIjtcblxuY29uc3QgRGVzY3JpcHRpb24gPSAoeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgPT4gKFxuICA8U2VjdGlvbiBjbGFzc05hbWU9e2NsYXNzTmFtZX0+XG4gICAgPGgyPkRlRmkgaXMgYSBNb3ZlbWVudDwvaDI+XG4gICAgPHA+XG4gICAgICBXZSBzYXcgYW4gb3ZlcmxhcCBpbiB0aGUgcHJvYmxlbXMgdGhhdCBkZWNlbnRyYWxpemVkIGZpbmFuY2UgcHJvdG9jb2xzXG4gICAgICB3ZXJlIHRyeWluZyB0byBzb2x2ZSBhbmQgdGhvdWdodCB0aGVyZSB3b3VsZCBiZSBubyBiZXR0ZXIgd2F5IHRvIHRhY2tsZVxuICAgICAgdGhlbSB0aGVuIGJ5IGZvcm1pbmcgYW4gb3BlbiBjb21tdW5pdHkgb2YgbGlrZS1taW5kZWQgcHJvamVjdHMuXG4gICAgPC9wPlxuICAgIDxDb3JlUHJpbmNpcGxlcz5cbiAgICAgIDxoMz5PdXIgQ29yZSBQcmluY2lwbGVzPC9oMz5cbiAgICAgIDxDb3JlUHJpbmNpcGxlIGlkPVwiMVwiIHRpdGxlPVwiSW50ZXJvcGVyYWJpbGl0eSBhbmQgT3BlbiBTb3VyY2VcIj5cbiAgICAgICAgPHA+XG4gICAgICAgICAgTWVtYmVycyBvZiBEZUZpIHRha2UgaW50ZXJvcGVyYWJpbGl0eSBpbnRvIGFjY291bnQgd2hlbiBidWlsZGluZyB0aGVpclxuICAgICAgICAgIHByb2plY3RzLiBUaGlzIGhlbHBzIHN0cmVuZ3RoZW4gdGhlIGNvbXBvdW5kaW5nIGVmZmVjdHMgb2YgYWxsIG91clxuICAgICAgICAgIHByb2plY3RzIGFzIGEgd2hvbGUuIE9wZW4gc291cmNpbmcgaGVscHMgdXMgcmVhY2ggdGhpcyBnb2FsIGJ5XG4gICAgICAgICAgYWxsb3dpbmcgdXMgdG8gY29sbGVjdGl2ZWx5IHVuZGVyc3RhbmQgaG93IGFsbCBvZiBvdXIgcHJvZHVjdHMgY2FuIGJlXG4gICAgICAgICAgd292ZW4gdG9nZXRoZXIgb24gYSB0ZWNobmljYWwgbGV2ZWwuXG4gICAgICAgIDwvcD5cbiAgICAgIDwvQ29yZVByaW5jaXBsZT5cbiAgICAgIDxDb3JlUHJpbmNpcGxlPlxuICAgICAgICA8UHJpbmNpcGxlSWQ+MjwvUHJpbmNpcGxlSWQ+XG4gICAgICAgIDxoND5BY2Nlc3NpYmlsaXR5IGFuZCBGaW5hbmNpYWwgSW5jbHVzaW9uPC9oND5cbiAgICAgICAgPHA+XG4gICAgICAgICAgV2Ugc3RyaXZlIHRvIGNyZWF0ZSBhIGZpbmFuY2lhbCBzeXN0ZW0gdGhhdCBpcyBhY2Nlc3NpYmxlIHRvIGFueW9uZVxuICAgICAgICAgIHdpdGggYW4gaW50ZXJuZXQgY29ubmVjdGlvbi4gV2UgYmVsaWV2ZSBpbiBhIHdvcmxkIHdoZXJlIHZhbHVlIGZsb3dzXG4gICAgICAgICAgZnJlZWx5LCByZWdhcmRsZXNzIG9mIG9uZeKAmXMgZ2VvZ3JhcGhpYyBsb2NhdGlvbi5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgICAgPENvcmVQcmluY2lwbGU+XG4gICAgICAgIDxQcmluY2lwbGVJZD4zPC9QcmluY2lwbGVJZD5cbiAgICAgICAgPGg0PkZpbmFuY2lhbCBUcmFuc3BhcmVuY3k8L2g0PlxuICAgICAgICA8cD5cbiAgICAgICAgICBXZSBiZWxpZXZlIHRoYXQgZmluYW5jaWFsIHNlcnZpY2VzIHNob3VsZCBub3QgYmUgYnVpbHQgaW4gb3BhcXVlXG4gICAgICAgICAgc2lsb3MsIGJ1dCByYXRoZXIgdGhhdCBtYXJrZXQtbGV2ZWwgaW5mb3JtYXRpb24gc2hvdWxkIGJlIHRyYW5zcGFyZW50XG4gICAgICAgICAgdG8gYWxsIHBhcnRpY2lwYW50cyB3aGlsZSBzdGlsbCBwcmVzZXJ2aW5nIGluZGl2aWR1YWwgcHJpdmFjeS5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgIDwvQ29yZVByaW5jaXBsZXM+XG4gIDwvU2VjdGlvbj5cbik7XG5cbmNvbnN0IENvcmVQcmluY2lwbGVzID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBDb3JlUHJpbmNpcGxlID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBQcmluY2lwbGVJZCA9IHN0eWxlZC5zcGFuYGA7XG5cbmV4cG9ydCBkZWZhdWx0IHN0eWxlZChEZXNjcmlwdGlvbilgYDtcbiJdfQ== */");
+var PrincipleId =
+/*#__PURE__*/
+Object(react_emotion__WEBPACK_IMPORTED_MODULE_1__["default"])("span", {
+  label: "PrincipleId",
+  target: "e1jp911h2"
+})("/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnRCtCIiwiZmlsZSI6Ii9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSBcInJlYWN0LWVtb3Rpb25cIjtcbmltcG9ydCBTZWN0aW9uIGZyb20gXCIuL1NlY3Rpb25cIjtcblxuY29uc3QgRGVzY3JpcHRpb24gPSAoeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgPT4gKFxuICA8U2VjdGlvbiBjbGFzc05hbWU9e2NsYXNzTmFtZX0+XG4gICAgPGgyPkRlRmkgaXMgYSBNb3ZlbWVudDwvaDI+XG4gICAgPHA+XG4gICAgICBXZSBzYXcgYW4gb3ZlcmxhcCBpbiB0aGUgcHJvYmxlbXMgdGhhdCBkZWNlbnRyYWxpemVkIGZpbmFuY2UgcHJvdG9jb2xzXG4gICAgICB3ZXJlIHRyeWluZyB0byBzb2x2ZSBhbmQgdGhvdWdodCB0aGVyZSB3b3VsZCBiZSBubyBiZXR0ZXIgd2F5IHRvIHRhY2tsZVxuICAgICAgdGhlbSB0aGVuIGJ5IGZvcm1pbmcgYW4gb3BlbiBjb21tdW5pdHkgb2YgbGlrZS1taW5kZWQgcHJvamVjdHMuXG4gICAgPC9wPlxuICAgIDxDb3JlUHJpbmNpcGxlcz5cbiAgICAgIDxoMz5PdXIgQ29yZSBQcmluY2lwbGVzPC9oMz5cbiAgICAgIDxDb3JlUHJpbmNpcGxlIGlkPVwiMVwiIHRpdGxlPVwiSW50ZXJvcGVyYWJpbGl0eSBhbmQgT3BlbiBTb3VyY2VcIj5cbiAgICAgICAgPHA+XG4gICAgICAgICAgTWVtYmVycyBvZiBEZUZpIHRha2UgaW50ZXJvcGVyYWJpbGl0eSBpbnRvIGFjY291bnQgd2hlbiBidWlsZGluZyB0aGVpclxuICAgICAgICAgIHByb2plY3RzLiBUaGlzIGhlbHBzIHN0cmVuZ3RoZW4gdGhlIGNvbXBvdW5kaW5nIGVmZmVjdHMgb2YgYWxsIG91clxuICAgICAgICAgIHByb2plY3RzIGFzIGEgd2hvbGUuIE9wZW4gc291cmNpbmcgaGVscHMgdXMgcmVhY2ggdGhpcyBnb2FsIGJ5XG4gICAgICAgICAgYWxsb3dpbmcgdXMgdG8gY29sbGVjdGl2ZWx5IHVuZGVyc3RhbmQgaG93IGFsbCBvZiBvdXIgcHJvZHVjdHMgY2FuIGJlXG4gICAgICAgICAgd292ZW4gdG9nZXRoZXIgb24gYSB0ZWNobmljYWwgbGV2ZWwuXG4gICAgICAgIDwvcD5cbiAgICAgIDwvQ29yZVByaW5jaXBsZT5cbiAgICAgIDxDb3JlUHJpbmNpcGxlPlxuICAgICAgICA8UHJpbmNpcGxlSWQ+MjwvUHJpbmNpcGxlSWQ+XG4gICAgICAgIDxoND5BY2Nlc3NpYmlsaXR5IGFuZCBGaW5hbmNpYWwgSW5jbHVzaW9uPC9oND5cbiAgICAgICAgPHA+XG4gICAgICAgICAgV2Ugc3RyaXZlIHRvIGNyZWF0ZSBhIGZpbmFuY2lhbCBzeXN0ZW0gdGhhdCBpcyBhY2Nlc3NpYmxlIHRvIGFueW9uZVxuICAgICAgICAgIHdpdGggYW4gaW50ZXJuZXQgY29ubmVjdGlvbi4gV2UgYmVsaWV2ZSBpbiBhIHdvcmxkIHdoZXJlIHZhbHVlIGZsb3dzXG4gICAgICAgICAgZnJlZWx5LCByZWdhcmRsZXNzIG9mIG9uZeKAmXMgZ2VvZ3JhcGhpYyBsb2NhdGlvbi5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgICAgPENvcmVQcmluY2lwbGU+XG4gICAgICAgIDxQcmluY2lwbGVJZD4zPC9QcmluY2lwbGVJZD5cbiAgICAgICAgPGg0PkZpbmFuY2lhbCBUcmFuc3BhcmVuY3k8L2g0PlxuICAgICAgICA8cD5cbiAgICAgICAgICBXZSBiZWxpZXZlIHRoYXQgZmluYW5jaWFsIHNlcnZpY2VzIHNob3VsZCBub3QgYmUgYnVpbHQgaW4gb3BhcXVlXG4gICAgICAgICAgc2lsb3MsIGJ1dCByYXRoZXIgdGhhdCBtYXJrZXQtbGV2ZWwgaW5mb3JtYXRpb24gc2hvdWxkIGJlIHRyYW5zcGFyZW50XG4gICAgICAgICAgdG8gYWxsIHBhcnRpY2lwYW50cyB3aGlsZSBzdGlsbCBwcmVzZXJ2aW5nIGluZGl2aWR1YWwgcHJpdmFjeS5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgIDwvQ29yZVByaW5jaXBsZXM+XG4gIDwvU2VjdGlvbj5cbik7XG5cbmNvbnN0IENvcmVQcmluY2lwbGVzID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBDb3JlUHJpbmNpcGxlID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBQcmluY2lwbGVJZCA9IHN0eWxlZC5zcGFuYGA7XG5cbmV4cG9ydCBkZWZhdWx0IHN0eWxlZChEZXNjcmlwdGlvbilgYDtcbiJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (/*#__PURE__*/Object(react_emotion__WEBPACK_IMPORTED_MODULE_1__["default"])(Description, {
+  target: "e1jp911h3"
+})("/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFrRGtDIiwiZmlsZSI6Ii9ob21lL2lhbi9wcm9qL2RlZmkvc2l0ZS9jb21wb25lbnRzL0Rlc2NyaXB0aW9uLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSBcInJlYWN0LWVtb3Rpb25cIjtcbmltcG9ydCBTZWN0aW9uIGZyb20gXCIuL1NlY3Rpb25cIjtcblxuY29uc3QgRGVzY3JpcHRpb24gPSAoeyBjbGFzc05hbWUgfTogeyBjbGFzc05hbWU/OiBzdHJpbmcgfSkgPT4gKFxuICA8U2VjdGlvbiBjbGFzc05hbWU9e2NsYXNzTmFtZX0+XG4gICAgPGgyPkRlRmkgaXMgYSBNb3ZlbWVudDwvaDI+XG4gICAgPHA+XG4gICAgICBXZSBzYXcgYW4gb3ZlcmxhcCBpbiB0aGUgcHJvYmxlbXMgdGhhdCBkZWNlbnRyYWxpemVkIGZpbmFuY2UgcHJvdG9jb2xzXG4gICAgICB3ZXJlIHRyeWluZyB0byBzb2x2ZSBhbmQgdGhvdWdodCB0aGVyZSB3b3VsZCBiZSBubyBiZXR0ZXIgd2F5IHRvIHRhY2tsZVxuICAgICAgdGhlbSB0aGVuIGJ5IGZvcm1pbmcgYW4gb3BlbiBjb21tdW5pdHkgb2YgbGlrZS1taW5kZWQgcHJvamVjdHMuXG4gICAgPC9wPlxuICAgIDxDb3JlUHJpbmNpcGxlcz5cbiAgICAgIDxoMz5PdXIgQ29yZSBQcmluY2lwbGVzPC9oMz5cbiAgICAgIDxDb3JlUHJpbmNpcGxlIGlkPVwiMVwiIHRpdGxlPVwiSW50ZXJvcGVyYWJpbGl0eSBhbmQgT3BlbiBTb3VyY2VcIj5cbiAgICAgICAgPHA+XG4gICAgICAgICAgTWVtYmVycyBvZiBEZUZpIHRha2UgaW50ZXJvcGVyYWJpbGl0eSBpbnRvIGFjY291bnQgd2hlbiBidWlsZGluZyB0aGVpclxuICAgICAgICAgIHByb2plY3RzLiBUaGlzIGhlbHBzIHN0cmVuZ3RoZW4gdGhlIGNvbXBvdW5kaW5nIGVmZmVjdHMgb2YgYWxsIG91clxuICAgICAgICAgIHByb2plY3RzIGFzIGEgd2hvbGUuIE9wZW4gc291cmNpbmcgaGVscHMgdXMgcmVhY2ggdGhpcyBnb2FsIGJ5XG4gICAgICAgICAgYWxsb3dpbmcgdXMgdG8gY29sbGVjdGl2ZWx5IHVuZGVyc3RhbmQgaG93IGFsbCBvZiBvdXIgcHJvZHVjdHMgY2FuIGJlXG4gICAgICAgICAgd292ZW4gdG9nZXRoZXIgb24gYSB0ZWNobmljYWwgbGV2ZWwuXG4gICAgICAgIDwvcD5cbiAgICAgIDwvQ29yZVByaW5jaXBsZT5cbiAgICAgIDxDb3JlUHJpbmNpcGxlPlxuICAgICAgICA8UHJpbmNpcGxlSWQ+MjwvUHJpbmNpcGxlSWQ+XG4gICAgICAgIDxoND5BY2Nlc3NpYmlsaXR5IGFuZCBGaW5hbmNpYWwgSW5jbHVzaW9uPC9oND5cbiAgICAgICAgPHA+XG4gICAgICAgICAgV2Ugc3RyaXZlIHRvIGNyZWF0ZSBhIGZpbmFuY2lhbCBzeXN0ZW0gdGhhdCBpcyBhY2Nlc3NpYmxlIHRvIGFueW9uZVxuICAgICAgICAgIHdpdGggYW4gaW50ZXJuZXQgY29ubmVjdGlvbi4gV2UgYmVsaWV2ZSBpbiBhIHdvcmxkIHdoZXJlIHZhbHVlIGZsb3dzXG4gICAgICAgICAgZnJlZWx5LCByZWdhcmRsZXNzIG9mIG9uZeKAmXMgZ2VvZ3JhcGhpYyBsb2NhdGlvbi5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgICAgPENvcmVQcmluY2lwbGU+XG4gICAgICAgIDxQcmluY2lwbGVJZD4zPC9QcmluY2lwbGVJZD5cbiAgICAgICAgPGg0PkZpbmFuY2lhbCBUcmFuc3BhcmVuY3k8L2g0PlxuICAgICAgICA8cD5cbiAgICAgICAgICBXZSBiZWxpZXZlIHRoYXQgZmluYW5jaWFsIHNlcnZpY2VzIHNob3VsZCBub3QgYmUgYnVpbHQgaW4gb3BhcXVlXG4gICAgICAgICAgc2lsb3MsIGJ1dCByYXRoZXIgdGhhdCBtYXJrZXQtbGV2ZWwgaW5mb3JtYXRpb24gc2hvdWxkIGJlIHRyYW5zcGFyZW50XG4gICAgICAgICAgdG8gYWxsIHBhcnRpY2lwYW50cyB3aGlsZSBzdGlsbCBwcmVzZXJ2aW5nIGluZGl2aWR1YWwgcHJpdmFjeS5cbiAgICAgICAgPC9wPlxuICAgICAgPC9Db3JlUHJpbmNpcGxlPlxuICAgIDwvQ29yZVByaW5jaXBsZXM+XG4gIDwvU2VjdGlvbj5cbik7XG5cbmNvbnN0IENvcmVQcmluY2lwbGVzID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBDb3JlUHJpbmNpcGxlID0gc3R5bGVkLmRpdmBgO1xuXG5jb25zdCBQcmluY2lwbGVJZCA9IHN0eWxlZC5zcGFuYGA7XG5cbmV4cG9ydCBkZWZhdWx0IHN0eWxlZChEZXNjcmlwdGlvbilgYDtcbiJdfQ== */"));
+
+/***/ })
+
+})
+//# sourceMappingURL=index.js.1fa93c7f960916243ad9.hot-update.js.map
