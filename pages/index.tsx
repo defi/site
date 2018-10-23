@@ -10,13 +10,26 @@ import Events from "../components/Events";
 injectGlobal`
 ${emotionNormalize}
 
+@font-face {
+    font-family: Aeonik;
+    src: url(/static/Aeonik-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Aeonik;
+    src: url(/static/Aeonik-Regular.ttf);
+}
+
 html, body {
     margin: 0;
+    font-family: Aeonik, Arial, sans-serif;
 }
 
 *  {
     box-sizing: border-box;
 }
+
 `;
 
 const PageWrapper = styled.div`
