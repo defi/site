@@ -3,7 +3,7 @@
     "Apps": ["Coinbase Wallet"],
     "Baskets": ["Set"],
     "Derivatives": ["dY/dX", "Market Protocol", "bZx"],
-    "Exchanges": ["Kyber Network", "Market Protocol"],
+    "Exchanges": ["0x", "Kyber Network", "Market Protocol"],
     "Insurance": ["CDx", "Market Protocol"],
     "Loans": ["Dharma"],
     "Payments": ["8x Protocol"],
@@ -45,6 +45,9 @@
     },
     "Kyber Network": {
       "url": "https://kyber.network/"
+    },
+    "0x": {
+      "url": "https://0x.org/"
     },
     "Maker": {
       "url": "https://makerdao.com/"
