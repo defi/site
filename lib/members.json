@@ -10,7 +10,8 @@
     "Real World Assets": ["Centrifuge"],
     "Securities": ["Abacus"],
     "Stablecoins": ["Maker"],
-    "Scaling": ["Connext"]
+    "Scaling": ["Connext"],
+    "Security & Identity": ["Hydrogen"]
   },
   "members": {
     "Abacus": {
@@ -54,6 +55,9 @@
     },
     "Centrifuge": {
       "url": "https://www.centrifuge.io/"
-    }
+    },
+    "Hydrogen": {
+      "url": "https://www.hydrogenplatform.com/"
+    },
   }
 }
