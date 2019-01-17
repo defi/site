@@ -11,7 +11,7 @@
     "Securities": ["Abacus"],
     "Stablecoins": ["Maker"],
     "Scaling": ["Connext","Matic Network"],
-    "Security & Identity": ["Hydrogen"]
+    "Security & Identity": ["Hydrogen", "TPL Protocol"]
   },
   "members": {
     "Abacus": {
@@ -58,6 +58,9 @@
     },
     "Hydrogen": {
       "url": "https://www.hydrogenplatform.com/"
+    },
+    "TPL Protocol": {
+      "url": "https://tplprotocol.org/"
     },
     "Matic Network": {
       "url": "https://matic.network/"
