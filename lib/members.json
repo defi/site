@@ -4,7 +4,7 @@
     "Baskets": ["Set"],
     "Derivatives": ["dY/dX", "Market Protocol", "bZx"],
     "Exchanges": ["0x", "Kyber Network"],
-    "Insurance": ["CDx"],
+    "Insurance": ["CDx", "Etherisc"],
     "Loans": ["Dharma"],
     "Payments": ["8x Protocol"],
     "Real World Assets": ["Centrifuge"],
@@ -64,6 +64,9 @@
     },
     "Matic Network": {
       "url": "https://matic.network/"
+    },
+    "Etherisc": {
+      "url": "https://etherisc.com/"
     }
   }
 }
