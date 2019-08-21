@@ -12,15 +12,35 @@ const Events = ({ className }: { className?: string }) => (
     <EventGroup>
       <h4>Upcoming</h4>
       <EventCard
+        image="static/events/defisumm.it.png"
+        title="DeFi Summit London"
+        location="London, UK"
+        date="Sept 10th 2019"
+        time="9am - 5pm"
+      />
+    </EventGroup>
+    <EventGroup>
+
+    <EventCard
+      image="static/events/www.defidappsday.com.png"
+      title="DeFi dApps Day"
+      location="Tel Aviv, Israel"
+      date="Sept 10th 2019"
+      time="9am - 5pm"
+    />
+  </EventGroup>
+
+    <EventGroup>
+      <h4>Previous</h4>
+      <EventCard
         image="static/events/defi-summit-prague.jpg"
         title="DeFi Summit Prague"
         location="Prague, Czech Republic"
         date="Oct 29th 2018"
         time="9am - 5pm"
       />
-    </EventGroup>
-    <EventGroup>
-      <h4>Previous</h4>
+        </EventGroup>
+  <EventGroup>
       <EventCard
         image="static/events/defi-summit.jpg"
         title="DeFi Summit SF"
