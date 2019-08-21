@@ -11,7 +11,8 @@
     "Securities": ["Abacus"],
     "Stablecoins": ["Maker"],
     "Scaling": ["Connext","Matic Network"],
-    "Security & Identity": ["Hydrogen", "TPL Protocol"]
+    "Security & Identity": ["Hydrogen", "TPL Protocol"],
+    "Analytics": ["Defiprime", "Defipulse"]
   },
   "members": {
     "Abacus": {
@@ -64,6 +65,12 @@
     },
     "Matic Network": {
       "url": "https://matic.network/"
+    },
+    "DeFiprime": {
+      "url": "https://defiprime.com"
+    },
+    "DeFipulse": {
+      "url": "https://defipulse.com"
     }
   }
 }
