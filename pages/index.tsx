@@ -102,7 +102,5 @@ export default () => (
     </Head>
     <Header />
     <Description />
-    <Events />
-    <Members />
   </>
 );
