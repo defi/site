@@ -6,6 +6,7 @@
     "Exchanges": ["0x", "Kyber Network"],
     "Insurance": ["CDx"],
     "Loans": ["Dharma"],
+    "Platforms": ["Bloqboard"],
     "Payments": ["8x Protocol"],
     "Real World Assets": ["Centrifuge"],
     "Securities": ["Abacus"],
@@ -34,6 +35,9 @@
     },
     "Dharma": {
       "url": "https://dharma.io/"
+    },
+    "Bloqbord": {
+      "url": "https://bloqboard.com/"
     },
     "8x Protocol": {
       "url": "https://8xprotocol.com/"
