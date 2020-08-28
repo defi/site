@@ -3,7 +3,7 @@
     "Apps": ["Coinbase Wallet"],
     "Baskets": ["Set"],
     "Derivatives": ["dY/dX", "Market Protocol", "bZx"],
-    "Exchanges": ["0x", "Kyber Network"],
+    "Exchanges": ["0x", "Kyber Network", "Loopring Protocol"],
     "Insurance": ["CDx"],
     "Loans": ["Dharma"],
     "Payments": ["8x Protocol"],
@@ -49,6 +49,9 @@
     },
     "0x": {
       "url": "https://0x.org/"
+    },
+    "Loopring Protocol": {
+      "url": "https://loopring.org/"
     },
     "Maker": {
       "url": "https://makerdao.com/"
