@@ -4,6 +4,7 @@
     "Baskets": ["Set"],
     "Derivatives": ["dY/dX", "Market Protocol", "bZx"],
     "Exchanges": ["0x", "Kyber Network"],
+    "Financial Inclusion": ["Akropolis"],
     "Insurance": ["CDx"],
     "Loans": ["Dharma"],
     "Payments": ["8x Protocol"],
@@ -64,6 +65,9 @@
     },
     "Matic Network": {
       "url": "https://matic.network/"
+    },
+    "Akropolis": {
+      "url": "https://akropolis.io/"
     }
   }
 }
