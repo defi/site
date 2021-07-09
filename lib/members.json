@@ -11,11 +11,14 @@
     "Securities": ["Abacus"],
     "Stablecoins": ["Maker"],
     "Scaling": ["Connext","Matic Network"],
-    "Security & Identity": ["Hydrogen", "TPL Protocol"]
+    "Security & Identity": ["Hydrogen", "TPL Protocol", "AZTEC"]
   },
   "members": {
     "Abacus": {
       "url": "https://abacusprotocol.com"
+    },
+    "AZTEC": {
+      "url": "https://www.aztecprotocol.com"
     },
     "Coinbase Wallet": {
       "url": "https://wallet.coinbase.com/"
